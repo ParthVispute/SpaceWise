@@ -1,0 +1,134 @@
+css
+/* -------------------------
+   GENERAL PAGE
+------------------------- */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f7fb;
+    color: #1f2937;
+}
+
+
+/* -------------------------
+   HEADER
+------------------------- */
+
+header {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+/* -------------------------
+   MAIN CONTENT
+------------------------- */
+
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+
+/* -------------------------
+   SECTIONS
+------------------------- */
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+
+/* -------------------------
+   QUESTION INPUT
+------------------------- */
+
+input[type="text"] {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+
+/* -------------------------
+   BUTTONS
+------------------------- */
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* -------------------------
+   SOURCES
+------------------------- */
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* -------------------------
+   FOOTER
+------------------------- */
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #64748b;
+}
+#sources {
+    list-style: none;
+    padding: 0;
+}
+
+#sources li {
+    margin-bottom: 10px;
+}
+
+#sources a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+#sources a:hover {
+    text-decoration: underline;
+}

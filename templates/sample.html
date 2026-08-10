@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='sample.css') }}">
+    <script src="{{ url_for('static', filename='sample.js') }}" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceWise AI</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>🚀 SpaceWise AI</h1>
+        <p>Your AI-powered space learning assistant</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Ask a Question</h2>
+
+            <form>
+                <label for="question">What would you like to know about space?</label>
+
+                <br><br>
+
+                <input
+                    type="text"
+                    id="question"
+                    name="question"
+                    placeholder="e.g. How does a rocket work?"
+                >
+
+                <button type="submit">Ask</button>
+            </form>
+        </section>
+
+
+        <section>
+            <h2>AI Explanation</h2>
+
+            <p id="answer">Your answer will appear here.</p>
+        </section>
+
+
+        <section>
+            <h2>Sources</h2>
+
+            <ul id="sources">
+                <li>Sources will appear here.</li>
+            </ul>
+        </section>
+
+         <section id="quiz-section">
+
+    <h2>🧠 Test Your Understanding</h2>
+
+    <button id="quiz-button">Take the Quiz</button>
+
+    <div id="quiz"></div>
+
+    <button id="submit-quiz" style="display: none;" >
+        Submit Quiz 
+        </button>
+
+        <div id="quiz-result"></div>
+
+</section>
+
+
+    </main>
+
+
+    <footer>
+        <p>SpaceWise AI — India Space Week 2026</p>
+    </footer>
+
+</body>
+
+</html>
+

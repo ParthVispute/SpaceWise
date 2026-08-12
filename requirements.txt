@@ -2,3 +2,4 @@ Flask
 requests
 tavily-python
 gunicorn
+goole-genai
